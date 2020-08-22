@@ -1,9 +1,9 @@
-<div class="m-2 p-1 question-box">
+<div class="my-5 p-1 question-box">
   <p><%= @question %></p>
-  <p>-You</p>
+  <p><em>-You</em></p>
 </div>
-<div class="m-2 p-1 answer-box">
-  <p><%= @answer %></p>
-  <p>-Your coach</p>
+<div class="my-5 p-1 answer-box">
+  <p><strong><%= @answer %></strong></p>
+  <p><em>-Your coach</em></p>
 </div>
 <%= link_to 'Ask a new question', ask_path %>
